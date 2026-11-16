@@ -1,28 +1,30 @@
-# dot-matrix-watch
+---
+generated_by: "OpenAI Codex (GPT-6; exact variant not exposed)"
+timestamp: "2026-11-05T21:46:00-06:00"
+---
+# Dot Matrix
+A Pebble Time2 watchface with original circular-dot time, a compact dot date and a centered dotted battery display.
 
-Scaffolded from `project-template` using the `workflow-python` profile.
+- Six presets: Mint, Amber, Ice, Rose, White and Paper.
+- Custom background, digits/date and battery/divider colors.
+- Watch-default,12-hour or24-hour time. Explicit AM/PM in12-hour mode.
+- Date Off, weekday/month/day, ISO, US or EU.
+- Real battery percentage plus four bars.
+- Minute-only updates.
 
-## Project Profile
+## Build
+`make test`
+`make build`
+`make verify`
 
-- `profile`: `workflow-python`
-- `deploy`: `local-only`
-- `runtime`: `python`
-- `loop_mode`: `data`
-- `knowledge_level`: `heavy`
+Output: dist/Dot-Matrix-0.1.0.pbw. Includes Emery, Chalk, and Gabbro.
+Native captures live in media/. This version has not been published.
 
-## Workshop Standard
 
-This project follows the 3-layer architecture:
+## Round-compatible release — 0.1.1
 
-```text
-directives/     Layer 1 — What to do
-agent           Layer 2 — Decide → Delegate → Verify
-execution/      Layer 3 — Deterministic execution (when this profile uses it)
-```
+Dot Matrix includes native layouts for Pebble Time2 (Emery200×228), original Time Round (Chalk180×180), and Round2 (Gabbro260×260). The rectangular layout and existing settings identities are preserved.
 
-## Next Steps
+Build: `python3 execution/build.py`, then `python3 execution/verify.py`. Local bundle: `dist/Dot-Matrix-0.1.1.pbw`. Native round previews: `media/round/`. Repeatable fixture/capture instructions: [round compatibility QA](knowledge/procedural/round_compatibility.md).
 
-1. Fill in the actual project description here.
-2. Update `task.md` with the first real milestone.
-3. Populate `knowledge/context.md`.
-4. Draft the first workflow directive in `directives/`.
+This update is [publicly available](https://apps.repebble.com/3f9c7df9e7924d4abe6be703) with round screenshots. Public PBW bytes and screenshot pixels verify; physical-watch validation remains separate.

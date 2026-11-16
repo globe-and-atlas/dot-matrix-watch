@@ -1,0 +1,23 @@
+{
+  "name": "Dot Matrix",
+  "repo": "dot-matrix-watch",
+  "version": "0.1.1",
+  "url": "https://apps.repebble.com/3f9c7df9e7924d4abe6be703",
+  "pbw_exact": true,
+  "native_round_pixels_exact": true,
+  "matched_round_urls": [
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/chalk/bd76d537-4a93-4614-9c4f-c6d8fdc59cd6.png",
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/chalk/e7316730-5e8b-4df3-8459-b049e7e6a7c6.png",
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/gabbro/0ac72be6-fc71-4d75-ba26-bd2d66451206.png",
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/gabbro/6b102ca6-a9bd-40f3-a16d-d14dd5d69bd6.png"
+  ],
+  "existing_gallery_preserved": false,
+  "animated_preview_first": true,
+  "screenshots": [
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/emery/f75dd159-244a-4435-a1e2-f3ff9a482d3c.gif",
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/emery/da3d7dcd-ad66-404a-b592-41a507400514.png",
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/emery/bccc5fd9-9fb2-40a0-bd59-1cedbae5f610.png",
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/gabbro/0ac72be6-fc71-4d75-ba26-bd2d66451206.png",
+    "https://assets.repebble.com/screenshots/3f9c7df9e7924d4abe6be703/chalk/bd76d537-4a93-4614-9c4f-c6d8fdc59cd6.png"
+  ]
+}

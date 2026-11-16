@@ -1,0 +1,33 @@
+{
+  "repo": "dot-matrix-watch",
+  "name": "Dot Matrix",
+  "version": "0.1.1",
+  "uuid": "a36fbcbc-1620-4c4a-b903-0c9531e03b45",
+  "artifact": "/Users/danielbally/Git/dot-matrix-watch/dist/Dot-Matrix-0.1.1.pbw",
+  "sha256": "54103b409fb875083bda6bd5b6d1005d3245bfad6d9cc12a6529cc4cf845042b",
+  "platform_binary_sha256": {
+    "emery": "8f172a6f37ef3dea454c4d18ba0dc3f18071ef5b13d5b6d75727855f38e45efd",
+    "chalk": "4823ebcacf79a173ff83533edf42afe9306a2a3faf9213a848f77bd6fe9da0f8",
+    "gabbro": "4ea746193db8ab03410b2d7935cf27f043d40604bb23886cd0149d734c47805c"
+  },
+  "app_id": null,
+  "screenshots": [
+    "/Users/danielbally/Git/dot-matrix-watch/media/store/emery_01_palettes.gif",
+    "/Users/danielbally/Git/dot-matrix-watch/media/store/emery_02_palette.png",
+    "/Users/danielbally/Git/dot-matrix-watch/media/store/emery_03_palette.png",
+    "/Users/danielbally/Git/dot-matrix-watch/media/store/round-update/chalk_01_round.png",
+    "/Users/danielbally/Git/dot-matrix-watch/media/store/round-update/chalk_02_round.png",
+    "/Users/danielbally/Git/dot-matrix-watch/media/store/round-update/gabbro_01_round.png",
+    "/Users/danielbally/Git/dot-matrix-watch/media/store/round-update/gabbro_02_round.png"
+  ],
+  "screenshot_sha256": {
+    "emery_01_palettes.gif": "c090ac4800a551637d1a57a24b36d806ae56d4f5b5e81069feab1a1e5258d229",
+    "emery_02_palette.png": "0e2d1dd928089fe9380d0d984f7f1713b6fc46d42a81c15d3bd5ef696d5d7c88",
+    "emery_03_palette.png": "d7d74ea9377066ad5489dfa3c6dfa1987cd3387b6404f0c1afb640888e78e9f7",
+    "chalk_01_round.png": "a4daa445c37bb80336ec60dcfcc839793886f64c717d2bf4f7f3ac2e1113fdad",
+    "chalk_02_round.png": "a8169b992b5111d78795d3fc966cfd1ce5e8b40cd8f52ef04a2a105f5f52fee6",
+    "gabbro_01_round.png": "03bbb19e99163e35c6958ffdbb64b7e95cfdf5aa805c31a38c72ef04bb8ad274",
+    "gabbro_02_round.png": "1a06a4ed2b65c7921259a25590e8154a5059017b89980dcc5172733db0c760e1"
+  },
+  "release_notes": "Native layouts for original Time Round (180x180) and Round 2 (260x260). Preserves the Time 2 design and existing settings."
+}

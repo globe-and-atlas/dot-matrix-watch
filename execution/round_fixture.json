@@ -1,0 +1,10 @@
+{
+  "prefix": "DOT",
+  "flags": {
+    "DOT_FIXTURE": "1",
+    "DOT_HOUR": "10",
+    "DOT_MINUTE": "8",
+    "DOT_SECOND": "30",
+    "DOT_BATTERY": "82"
+  }
+}

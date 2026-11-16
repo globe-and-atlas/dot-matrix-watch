@@ -1,0 +1,9 @@
+{
+  "name": "Dot Matrix",
+  "version": "0.1.0",
+  "uuid": "a36fbcbc-1620-4c4a-b903-0c9531e03b45",
+  "platform": "emery",
+  "sha256": "79968f644b40b5d37ab9e12ab153e54a4be8e5930b31887f6b0f189c4910f195",
+  "native_cases": 27,
+  "published": false
+}
